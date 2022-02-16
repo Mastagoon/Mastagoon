@@ -9,12 +9,5 @@
 <br>
 <p align="center"><p align="center"> <img src="https://komarev.com/ghpvc/?username=mastagoon" alt="Masta"/> </p>  </p>
 <br>
-<p align="center">
-![GitHub Streak](https://github-readme-streak-stats.herokuapp.com?user=Mastagoon&theme=dark&date_format=j%20M%5B%20Y%5D)
-</p>
-
-<p align="center">
-![GitHub Streak](https://github-readme-streak-stats.herokuapp.com?user=Mastagoon&theme=dark&date_format=j%20M%5B%20Y%5D)
-</p>
-
-![GitHub Streak](https://github-readme-streak-stats.herokuapp.com?user=Mastagoon&theme=dark&date_format=j%20M%5B%20Y%5D)
+  
+![](https://github-readme-streak-stats.herokuapp.com?user=Mastagoon&theme=dark&date_format=j%20M%5B%20Y%5D)
