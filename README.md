@@ -10,5 +10,5 @@
 <p align="center"><p align="center"> <img src="https://komarev.com/ghpvc/?username=mastagoon" alt="Masta"/> </p>  </p>
 <br>
   <div align="center">
-![](https://github-readme-streak-stats.herokuapp.com?user=Mastagoon&theme=dark&date_format=j%20M%5B%20Y%5D)
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=Mastagoon&theme=dark&date_format=j%20M%5B%20Y%5D" />
   </div>
