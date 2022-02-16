@@ -6,9 +6,11 @@
 
 ![](https://activity-graph.herokuapp.com/graph?username=mastagoon&theme=redical)
 
-<br>
-<p align="center"><p align="center"> <img src="https://komarev.com/ghpvc/?username=mastagoon" alt="Masta"/> </p>  </p>
-<br>
   <div align="center">
 <img src="https://github-readme-streak-stats.herokuapp.com/?user=Mastagoon&theme=dark&date_format=j%20M%5B%20Y%5D" />
   </div>
+
+
+<br>
+<p align="center"><p align="center"> <img src="https://komarev.com/ghpvc/?username=mastagoon" alt="Masta"/> </p>  </p>
+<br>
