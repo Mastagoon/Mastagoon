@@ -1,4 +1,4 @@
 |![](https://github-readme-stats.vercel.app/api?username=mastagoon&&show_icons=true&title_color=ffffff&icon_color=bb2acf&text_color=daf7dc&bg_color=151515)|![](https://github-readme-stats.vercel.app/api/top-langs/?username=blueedgetechno&layout=compact&theme=tokyonight&langs_count=10)|
 |-|-|
 
-<img width="500" src="https://metrics.lecoq.io/blueedgetechno" alt="Github Metrics">
+<p align="center"> <img width="500" src="https://metrics.lecoq.io/mastagoon" alt="Github Metrics"> </p>
