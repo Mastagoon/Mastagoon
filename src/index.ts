@@ -3,7 +3,7 @@ import dotenv from "dotenv"
 import { addToBoard, Board, createEmptyBoard, Game, GameStatus, getGameState } from "./lib/connect4"
 import { getIssue, replyToIssue } from "./api/github"
 
-const REPO_NAME = "readme-connect4"
+const REPO_NAME = "mastagoon"
 
 dotenv.config()
 
