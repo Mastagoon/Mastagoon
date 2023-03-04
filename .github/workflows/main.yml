@@ -1,0 +1,45 @@
+name: connect4
+
+on:
+  issues:
+    types: [opened]
+
+jobs:
+  move:
+    runs-on: ubuntu-latest
+    if: startsWith(github.event.issue.title, 'Connect4:')
+
+    steps:
+      # Set up environment variables
+      - name: Setting up environment
+        run: |
+          echo ISSUE_NUMBER="${{ github.event.issue.number }}" >> $GITHUB_ENV
+          echo GITHUB_TOKEN="${{ secrets.GITHUB_TOKEN }}" >> $GITHUB_ENV
+          echo REPOSITORY_OWNER="${{ github.repository_owner }}" >> $GITHUB_ENV
+
+      - uses: actions/checkout@v3
+
+      # Set up a Python 3.8 (64-bit) instance
+      - name: Use Node.js ${{ matrix.node-version }}
+        uses: actions/setup-node@v3
+        with:
+          node-version: ${{ matrix.node-version }}
+          cache: 'npm'
+
+      # Use pip to install the dependencies and then run the script
+      - name: Install dependencies & run
+        run: |
+         npm install
+         npm run build --if-present
+         npm run start
+
+      # Create new commit with the changed files and push it to GitHub
+      - name: Commit and push changes
+        env:
+          ISSUE_TITLE: ${{ github.event.issue.title }}
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git add .
+          git commit -m "${ISSUE_TITLE} by ${{ github.event.issue.user.login }}"
+          git push
