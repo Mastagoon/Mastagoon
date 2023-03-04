@@ -8,14 +8,15 @@
 <br>
 
 
-<div align="center">
 
-<p align="center"><p align="center"> <img src="https://komarev.com/ghpvc/?username=mastagoon" alt="Masta"/> </p>  </p>
 <br>
 
 ### Feel free to reach out and say hi :D
 
 # Care for a game?
+
+
+<div align="center">
 
 This is an open connect4 game ANYONE can play.
 
@@ -29,6 +30,9 @@ To play, click on any of the numbers at the bottom of the board.
 
 <img src="https://github-readme-streak-stats.herokuapp.com/?user=Mastagoon&theme=dark&date_format=j%20M%5B%20Y%5D" />
 <br>
+
+
+<p align="center"><p align="center"> <img src="https://komarev.com/ghpvc/?username=mastagoon" alt="Masta"/> </p>  </p>
 
 
 </div>
