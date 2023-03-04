@@ -8,20 +8,21 @@
 <br>
 
 
-<div align="center">
 
-<p align="center"><p align="center"> <img src="https://komarev.com/ghpvc/?username=mastagoon" alt="Masta"/> </p>  </p>
 <br>
 
 ### Feel free to reach out and say hi :D
 
 # Care for a game?
 
+
+<div align="center">
+
 This is an open connect4 game ANYONE can play.
 
 
 <!-- turn message here -->
-It's your turn! You are playing as <img src="imgs/r.png" width="15" height="15" />
+It's Mastagoon's turn! He is playing as <img src="imgs/y.png" width="15" height="15" />
 
 
 To play, click on any of the numbers at the bottom of the board.
@@ -35,7 +36,7 @@ To play, click on any of the numbers at the bottom of the board.
 | <img src="imgs/e.png" width="50" height="50" /> | <img src="imgs/e.png" width="50" height="50" /> | <img src="imgs/e.png" width="50" height="50" /> | <img src="imgs/e.png" width="50" height="50" /> | <img src="imgs/e.png" width="50" height="50" /> | <img src="imgs/e.png" width="50" height="50" /> | <img src="imgs/e.png" width="50" height="50" /> |
 | <img src="imgs/e.png" width="50" height="50" /> | <img src="imgs/e.png" width="50" height="50" /> | <img src="imgs/e.png" width="50" height="50" /> | <img src="imgs/e.png" width="50" height="50" /> | <img src="imgs/e.png" width="50" height="50" /> | <img src="imgs/e.png" width="50" height="50" /> | <img src="imgs/e.png" width="50" height="50" /> |
 | <img src="imgs/e.png" width="50" height="50" /> | <img src="imgs/e.png" width="50" height="50" /> | <img src="imgs/e.png" width="50" height="50" /> | <img src="imgs/e.png" width="50" height="50" /> | <img src="imgs/e.png" width="50" height="50" /> | <img src="imgs/e.png" width="50" height="50" /> | <img src="imgs/e.png" width="50" height="50" /> |
-| <img src="imgs/e.png" width="50" height="50" /> | <img src="imgs/e.png" width="50" height="50" /> | <img src="imgs/e.png" width="50" height="50" /> | <img src="imgs/e.png" width="50" height="50" /> | <img src="imgs/e.png" width="50" height="50" /> | <img src="imgs/e.png" width="50" height="50" /> | <img src="imgs/y.png" width="50" height="50" /> |
+| <img src="imgs/e.png" width="50" height="50" /> | <img src="imgs/e.png" width="50" height="50" /> | <img src="imgs/e.png" width="50" height="50" /> | <img src="imgs/e.png" width="50" height="50" /> | <img src="imgs/e.png" width="50" height="50" /> | <img src="imgs/e.png" width="50" height="50" /> | <img src="imgs/e.png" width="50" height="50" /> |
  | [1](https://github.com/Mastagoon/mastagoon/issues/new?body=You+do+not+need+to+change+this+message,+just+submit+to+Play&title=Connect4:+move:+1) | [2](https://github.com/Mastagoon/mastagoon/issues/new?body=You+do+not+need+to+change+this+message,+just+submit+to+Play&title=Connect4:+move:+2) | [3](https://github.com/Mastagoon/mastagoon/issues/new?body=You+do+not+need+to+change+this+message,+just+submit+to+Play&title=Connect4:+move:+3) | [4](https://github.com/Mastagoon/mastagoon/issues/new?body=You+do+not+need+to+change+this+message,+just+submit+to+Play&title=Connect4:+move:+4) | [5](https://github.com/Mastagoon/mastagoon/issues/new?body=You+do+not+need+to+change+this+message,+just+submit+to+Play&title=Connect4:+move:+5) | [6](https://github.com/Mastagoon/mastagoon/issues/new?body=You+do+not+need+to+change+this+message,+just+submit+to+Play&title=Connect4:+move:+6) | [7](https://github.com/Mastagoon/mastagoon/issues/new?body=You+do+not+need+to+change+this+message,+just+submit+to+Play&title=Connect4:+move:+7) |
 
 
@@ -43,6 +44,9 @@ To play, click on any of the numbers at the bottom of the board.
 
 <img src="https://github-readme-streak-stats.herokuapp.com/?user=Mastagoon&theme=dark&date_format=j%20M%5B%20Y%5D" />
 <br>
+
+
+<p align="center"><p align="center"> <img src="https://komarev.com/ghpvc/?username=mastagoon" alt="Masta"/> </p>  </p>
 
 
 </div>
