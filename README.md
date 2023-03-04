@@ -8,9 +8,6 @@
 <br>
 
 
-
-<br>
-
 ### Feel free to reach out and say hi :D
 
 # Care for a game?
