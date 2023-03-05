@@ -2,7 +2,7 @@
 
 - Fullstack web developer
 - Software Engineer at Waared</br><br/>
-[![Linkedin: Sahal](https://img.shields.io/badge/-thaianebraga-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/thaianebraga/)](https://www.linkedin.com/in/thaianebraga/)
+[![Linkedin: Sahal](https://img.shields.io/badge/-mastagoon-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/mastagoon/)](https://www.linkedin.com/in/mastagoon/)
 [![GitHub Sahal](https://img.shields.io/github/followers/mastagoon?label=follow&style=social)](https://github.com/mastagoon)
   
 <br>
@@ -13,16 +13,17 @@
 
 ### Feel free to reach out and say hi :D
 
+<div align="center">
+
 # Care for a game?
 
 
-<div align="center">
 
 This is an open connect4 game ANYONE can play.
 
 
 <!-- turn message here -->
-It's your turn! You are playing as <img src="imgs/r.png" width="15" height="15" />
+It's Mastagoon's turn! He is playing as <img src="imgs/y.png" width="15" height="15" />
 
 
 To play, click on any of the numbers at the bottom of the board.
@@ -33,7 +34,7 @@ To play, click on any of the numbers at the bottom of the board.
 |:---:|:---:|:---:|:---:|:---:|:---:|:---:|
 | <img src="imgs/e.png" width="50" height="50" /> | <img src="imgs/e.png" width="50" height="50" /> | <img src="imgs/e.png" width="50" height="50" /> | <img src="imgs/e.png" width="50" height="50" /> | <img src="imgs/e.png" width="50" height="50" /> | <img src="imgs/e.png" width="50" height="50" /> | <img src="imgs/e.png" width="50" height="50" /> |
 | <img src="imgs/e.png" width="50" height="50" /> | <img src="imgs/e.png" width="50" height="50" /> | <img src="imgs/e.png" width="50" height="50" /> | <img src="imgs/e.png" width="50" height="50" /> | <img src="imgs/e.png" width="50" height="50" /> | <img src="imgs/e.png" width="50" height="50" /> | <img src="imgs/e.png" width="50" height="50" /> |
-| <img src="imgs/e.png" width="50" height="50" /> | <img src="imgs/e.png" width="50" height="50" /> | <img src="imgs/e.png" width="50" height="50" /> | <img src="imgs/e.png" width="50" height="50" /> | <img src="imgs/e.png" width="50" height="50" /> | <img src="imgs/e.png" width="50" height="50" /> | <img src="imgs/e.png" width="50" height="50" /> |
+| <img src="imgs/e.png" width="50" height="50" /> | <img src="imgs/e.png" width="50" height="50" /> | <img src="imgs/r.png" width="50" height="50" /> | <img src="imgs/e.png" width="50" height="50" /> | <img src="imgs/e.png" width="50" height="50" /> | <img src="imgs/e.png" width="50" height="50" /> | <img src="imgs/e.png" width="50" height="50" /> |
 | <img src="imgs/e.png" width="50" height="50" /> | <img src="imgs/y.png" width="50" height="50" /> | <img src="imgs/y.png" width="50" height="50" /> | <img src="imgs/e.png" width="50" height="50" /> | <img src="imgs/e.png" width="50" height="50" /> | <img src="imgs/e.png" width="50" height="50" /> | <img src="imgs/r.png" width="50" height="50" /> |
 | <img src="imgs/e.png" width="50" height="50" /> | <img src="imgs/r.png" width="50" height="50" /> | <img src="imgs/y.png" width="50" height="50" /> | <img src="imgs/y.png" width="50" height="50" /> | <img src="imgs/e.png" width="50" height="50" /> | <img src="imgs/r.png" width="50" height="50" /> | <img src="imgs/y.png" width="50" height="50" /> |
 | <img src="imgs/r.png" width="50" height="50" /> | <img src="imgs/r.png" width="50" height="50" /> | <img src="imgs/y.png" width="50" height="50" /> | <img src="imgs/r.png" width="50" height="50" /> | <img src="imgs/r.png" width="50" height="50" /> | <img src="imgs/y.png" width="50" height="50" /> | <img src="imgs/y.png" width="50" height="50" /> |
