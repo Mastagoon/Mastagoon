@@ -23,7 +23,7 @@ This is an open connect4 game ANYONE can play.
 
 
 <!-- turn message here -->
-It's Mastagoon's turn! He is playing as <img src="imgs/y.png" width="15" height="15" />
+It's your turn! You are playing as <img src="imgs/r.png" width="15" height="15" />
 
 
 To play, click on any of the numbers at the bottom of the board.
@@ -33,7 +33,7 @@ To play, click on any of the numbers at the bottom of the board.
 | | | | | | | |
 |:---:|:---:|:---:|:---:|:---:|:---:|:---:|
 | <img src="imgs/e.png" width="50" height="50" /> | <img src="imgs/e.png" width="50" height="50" /> | <img src="imgs/e.png" width="50" height="50" /> | <img src="imgs/e.png" width="50" height="50" /> | <img src="imgs/e.png" width="50" height="50" /> | <img src="imgs/e.png" width="50" height="50" /> | <img src="imgs/e.png" width="50" height="50" /> |
-| <img src="imgs/e.png" width="50" height="50" /> | <img src="imgs/e.png" width="50" height="50" /> | <img src="imgs/e.png" width="50" height="50" /> | <img src="imgs/e.png" width="50" height="50" /> | <img src="imgs/e.png" width="50" height="50" /> | <img src="imgs/e.png" width="50" height="50" /> | <img src="imgs/e.png" width="50" height="50" /> |
+| <img src="imgs/e.png" width="50" height="50" /> | <img src="imgs/y.png" width="50" height="50" /> | <img src="imgs/e.png" width="50" height="50" /> | <img src="imgs/e.png" width="50" height="50" /> | <img src="imgs/e.png" width="50" height="50" /> | <img src="imgs/e.png" width="50" height="50" /> | <img src="imgs/e.png" width="50" height="50" /> |
 | <img src="imgs/e.png" width="50" height="50" /> | <img src="imgs/y.png" width="50" height="50" /> | <img src="imgs/r.png" width="50" height="50" /> | <img src="imgs/e.png" width="50" height="50" /> | <img src="imgs/e.png" width="50" height="50" /> | <img src="imgs/e.png" width="50" height="50" /> | <img src="imgs/e.png" width="50" height="50" /> |
 | <img src="imgs/e.png" width="50" height="50" /> | <img src="imgs/y.png" width="50" height="50" /> | <img src="imgs/y.png" width="50" height="50" /> | <img src="imgs/r.png" width="50" height="50" /> | <img src="imgs/e.png" width="50" height="50" /> | <img src="imgs/y.png" width="50" height="50" /> | <img src="imgs/r.png" width="50" height="50" /> |
 | <img src="imgs/e.png" width="50" height="50" /> | <img src="imgs/r.png" width="50" height="50" /> | <img src="imgs/y.png" width="50" height="50" /> | <img src="imgs/y.png" width="50" height="50" /> | <img src="imgs/r.png" width="50" height="50" /> | <img src="imgs/r.png" width="50" height="50" /> | <img src="imgs/y.png" width="50" height="50" /> |
