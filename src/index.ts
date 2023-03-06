@@ -65,7 +65,7 @@ const updateReadme = (game: Game) => {
 	lastMovesTable += lastMovesParsed.reverse().map((move) =>
 		`| <img src="imgs/${move.color}.png" width="15" height="15" /> | [${move.player}](https://github.com/${move.player}) | ${move.column} | ${move.message} |`
 	).join("\n")
-	const [beforeLastMoves, afterLastMoves] = readme.split("<!-- last moves go here -->")
+	const [beforeLastMoves, afterLastMoves] = readme.split("<!-- latest moves go here -->")
 	readme = [beforeLastMoves, lastMovesTable, afterLastMoves].join("\n")
 	fs.writeFileSync("README.md", readme)
 }
