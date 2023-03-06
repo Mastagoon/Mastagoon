@@ -1,4 +1,4 @@
-# Hello, I'm Sahal Alzubair
+# Hello, I'm Sahal
 
 - Fullstack web developer
 - Software Engineer at Waared</br><br/>
