@@ -36,7 +36,9 @@ To play, click on any of the numbers at the bottom of the board.
 
 <br>
 
-<!-- latest moves here -->
+| Color | Player | Column | Message |
+| --- | --- | --- | --- |
+
 
 ![](https://activity-graph.herokuapp.com/graph?username=mastagoon&theme=redical)
 
@@ -49,10 +51,3 @@ To play, click on any of the numbers at the bottom of the board.
 
 </div>
 
-| Color | Player | Column | Message |
-| --- | --- | --- | --- |
-| <img src="imgs/r.png" width="15" height="15" /> | [azoz14330](https://github.com/azoz14330) | 7 | move 7 |
-| <img src="imgs/y.png" width="15" height="15" /> | [Mastagoon](https://github.com/Mastagoon) | 1 | move 1 |
-| <img src="imgs/r.png" width="15" height="15" /> | [azoz14330](https://github.com/azoz14330) | 4 | move 4 |
-| <img src="imgs/y.png" width="15" height="15" /> | [Mastagoon](https://github.com/Mastagoon) | 1 | move 1 |
-| <img src="imgs/r.png" width="15" height="15" /> | [azoz14330](https://github.com/azoz14330) | 5 | move 5 |
