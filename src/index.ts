@@ -54,22 +54,19 @@ const generateReadmeTurnMessage = (game: Game) => {
 const updateReadme = (game: Game) => {
 	//#TODO cleanme
 	const template = fs.readFileSync(TEMPLATE_PATH, "utf-8")
-	const turnMessageDelimiter = "<!-- turn message here -->"
-	const [beforeTurnMessage, afterTurnMessage] = template.split(turnMessageDelimiter)
+	const [beforeTurnMessage, afterTurnMessage] = template.split("<!-- turn message here -->")
 	const turnMessage = generateReadmeTurnMessage(game)
-	let readme = [beforeTurnMessage, turnMessageDelimiter, turnMessage, afterTurnMessage].join("\n")
-	const boardBeginDelimiter = "<!-- board goes here -->"
-	const [beforeBoard, afterBoard] = readme.split(boardBeginDelimiter)
-	readme = [beforeBoard, boardBeginDelimiter, generateReadmeBoard(game.board), afterBoard].join("\n")
+	let readme = [beforeTurnMessage, turnMessage, afterTurnMessage].join("\n")
+	const [beforeBoard, afterBoard] = readme.split("<!-- board goes here -->")
+	readme = [beforeBoard, generateReadmeBoard(game.board), afterBoard].join("\n")
 	const lastMoves = fs.readFileSync(LATST_MOVES_PATH, "utf-8")
 	const lastMovesParsed = JSON.parse(lastMoves) as Move[]
 	let lastMovesTable = `| Color | Player | Column | Message |\n| --- | --- | --- | --- |\n`
 	lastMovesTable += lastMovesParsed.reverse().map((move) =>
 		`| <img src="imgs/${move.color}.png" width="15" height="15" /> | [${move.player}](https://github.com/${move.player}) | ${move.column} | ${move.message} |`
 	).join("\n")
-	const lastMovesBeginDelimiter = "<!-- last moves go here -->"
-	const [beforeLastMoves, afterLastMoves] = readme.split(lastMovesBeginDelimiter)
-	readme = [beforeLastMoves, lastMovesBeginDelimiter, lastMovesTable, afterLastMoves].join("\n")
+	const [beforeLastMoves, afterLastMoves] = readme.split("<!-- last moves go here -->")
+	readme = [beforeLastMoves, lastMovesTable, afterLastMoves].join("\n")
 	fs.writeFileSync("README.md", readme)
 }
 
@@ -126,10 +123,10 @@ const main = async () => {
 			// check state
 			const newGameState = getGameState(newBoard)
 			if (newGameState.status === "INVALID") return closeIssue("Invalid move.", issueNumber)
+			updateLastMoves(game.turn, column, user.login, body)
 			if (newGameState.status === "WINNER_RED") return handleWinner(newBoard, newGameState, "r")
 			if (newGameState.status === "WINNER_YELLOW") return handleWinner(newBoard, newGameState, "y")
 			if (newGameState.status === "TIE") return handleWinner(newBoard, newGameState, "d")
-			updateLastMoves(game.turn, column, user.login, body)
 			const newGame: Game = {
 				...game,
 				board: newBoard,
