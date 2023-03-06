@@ -18,7 +18,7 @@ for more details, check [this repository](https://github.com/mastagoon/connect4-
 
 
 <!-- turn message here -->
-It's Mastagoon's turn! He is playing as <img src="imgs/y.png" width="15" height="15" />
+It's your turn! You are playing as <img src="imgs/r.png" width="15" height="15" />
 
 
 To play, click on any of the numbers at the bottom of the board.
@@ -30,7 +30,7 @@ To play, click on any of the numbers at the bottom of the board.
 | <img src="imgs/e.png" width="50" height="50" /> | <img src="imgs/r.png" width="50" height="50" /> | <img src="imgs/e.png" width="50" height="50" /> | <img src="imgs/e.png" width="50" height="50" /> | <img src="imgs/e.png" width="50" height="50" /> | <img src="imgs/e.png" width="50" height="50" /> | <img src="imgs/e.png" width="50" height="50" /> |
 | <img src="imgs/e.png" width="50" height="50" /> | <img src="imgs/y.png" width="50" height="50" /> | <img src="imgs/e.png" width="50" height="50" /> | <img src="imgs/e.png" width="50" height="50" /> | <img src="imgs/e.png" width="50" height="50" /> | <img src="imgs/e.png" width="50" height="50" /> | <img src="imgs/e.png" width="50" height="50" /> |
 | <img src="imgs/e.png" width="50" height="50" /> | <img src="imgs/y.png" width="50" height="50" /> | <img src="imgs/r.png" width="50" height="50" /> | <img src="imgs/e.png" width="50" height="50" /> | <img src="imgs/r.png" width="50" height="50" /> | <img src="imgs/r.png" width="50" height="50" /> | <img src="imgs/e.png" width="50" height="50" /> |
-| <img src="imgs/e.png" width="50" height="50" /> | <img src="imgs/y.png" width="50" height="50" /> | <img src="imgs/y.png" width="50" height="50" /> | <img src="imgs/r.png" width="50" height="50" /> | <img src="imgs/y.png" width="50" height="50" /> | <img src="imgs/y.png" width="50" height="50" /> | <img src="imgs/r.png" width="50" height="50" /> |
+| <img src="imgs/y.png" width="50" height="50" /> | <img src="imgs/y.png" width="50" height="50" /> | <img src="imgs/y.png" width="50" height="50" /> | <img src="imgs/r.png" width="50" height="50" /> | <img src="imgs/y.png" width="50" height="50" /> | <img src="imgs/y.png" width="50" height="50" /> | <img src="imgs/r.png" width="50" height="50" /> |
 | <img src="imgs/y.png" width="50" height="50" /> | <img src="imgs/r.png" width="50" height="50" /> | <img src="imgs/y.png" width="50" height="50" /> | <img src="imgs/y.png" width="50" height="50" /> | <img src="imgs/r.png" width="50" height="50" /> | <img src="imgs/r.png" width="50" height="50" /> | <img src="imgs/y.png" width="50" height="50" /> |
 | <img src="imgs/r.png" width="50" height="50" /> | <img src="imgs/r.png" width="50" height="50" /> | <img src="imgs/y.png" width="50" height="50" /> | <img src="imgs/r.png" width="50" height="50" /> | <img src="imgs/r.png" width="50" height="50" /> | <img src="imgs/y.png" width="50" height="50" /> | <img src="imgs/y.png" width="50" height="50" /> |
  | [1](https://github.com/Mastagoon/mastagoon/issues/new?body=move+1&title=Connect4:+move:+1) | [2](https://github.com/Mastagoon/mastagoon/issues/new?body=move+2&title=Connect4:+move:+2) | [3](https://github.com/Mastagoon/mastagoon/issues/new?body=move+3&title=Connect4:+move:+3) | [4](https://github.com/Mastagoon/mastagoon/issues/new?body=move+4&title=Connect4:+move:+4) | [5](https://github.com/Mastagoon/mastagoon/issues/new?body=move+5&title=Connect4:+move:+5) | [6](https://github.com/Mastagoon/mastagoon/issues/new?body=move+6&title=Connect4:+move:+6) | [7](https://github.com/Mastagoon/mastagoon/issues/new?body=move+7&title=Connect4:+move:+7) |
@@ -54,7 +54,8 @@ To play, click on any of the numbers at the bottom of the board.
 <!-- last moves go here -->
 | Color | Player | Column | Message |
 | --- | --- | --- | --- |
-| <img src="imgs/r.png" width="15" height="15" /> | Mastagoon | 1 |  |
-| <img src="imgs/r.png" width="15" height="15" /> | azoz14330 | 6 | You do not need to change this message, just submit to Play |
-| <img src="imgs/y.png" width="15" height="15" /> | Mastagoon | 1 | null |
+| <img src="imgs/y.png" width="15" height="15" /> | Mastagoon | 1 | move 1 |
 | <img src="imgs/r.png" width="15" height="15" /> | azoz14330 | 5 | move 5 |
+| <img src="imgs/y.png" width="15" height="15" /> | Mastagoon | 1 | null |
+| <img src="imgs/r.png" width="15" height="15" /> | azoz14330 | 6 | You do not need to change this message, just submit to Play |
+| <img src="imgs/r.png" width="15" height="15" /> | Mastagoon | 1 |  |
