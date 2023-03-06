@@ -15,7 +15,7 @@ type Move = {
 dotenv.config()
 
 const TEMPLATE_PATH = "./template.md"
-const LATST_MOVES_PATH = "./data/last_moves.json"
+const LATST_MOVES_PATH = "../data/last_moves.json"
 
 const REPO_PATH = `https://github.com/${process.env.REPOSITORY_OWNER}/${REPO_NAME}`
 
@@ -88,6 +88,7 @@ const startNewGame = () => {
 		}
 		updateReadme(game)
 		fs.writeFileSync("./data/game.json", JSON.stringify(game))
+		fs.writeFileSync(LATST_MOVES_PATH, "[]")
 		return true
 	} catch (err: any) {
 		console.log(err)
@@ -163,7 +164,7 @@ const handleWinner = (board: Board, state: GameStatus, winner: "r" | "y" | "d") 
 
 // updateLastMoves(game.turn, column, user.login, body)
 const updateLastMoves = (color: "r" | "y", column: number, player: string, body: string) => {
-	const lastMoves = fs.readFileSync("./data/lastMoves.json", "utf-8")
+	const lastMoves = fs.readFileSync(LATST_MOVES_PATH, "utf-8")
 	const lastMovesParsed = JSON.parse(lastMoves) as Move[]
 	// truncate body stringo
 	const newMove: Move = {
@@ -174,7 +175,7 @@ const updateLastMoves = (color: "r" | "y", column: number, player: string, body:
 	}
 	lastMovesParsed.push(newMove)
 	if (lastMovesParsed.length > 5) lastMovesParsed.shift()
-	fs.writeFileSync("./data/lastMoves.json", JSON.stringify(lastMovesParsed))
+	fs.writeFileSync(LATST_MOVES_PATH, JSON.stringify(lastMovesParsed))
 }
 
 main()
