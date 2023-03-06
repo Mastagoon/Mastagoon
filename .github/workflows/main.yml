@@ -19,14 +19,12 @@ jobs:
 
       - uses: actions/checkout@v3
 
-      # Set up a Python 3.8 (64-bit) instance
       - name: Use Node.js ${{ matrix.node-version }}
         uses: actions/setup-node@v3
         with:
           node-version: ${{ matrix.node-version }}
           cache: 'npm'
 
-      # Use pip to install the dependencies and then run the script
       - name: Install dependencies & run
         run: |
          npm install
