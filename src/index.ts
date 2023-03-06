@@ -153,6 +153,7 @@ const handleWinner = (board: Board, state: GameStatus, winner: "r" | "y" | "d") 
 		state
 	}
 	fs.writeFileSync("./data/game.json", JSON.stringify(newGame))
+	fs.writeFileSync(LATST_MOVES_PATH, "[]")
 	updateReadme(newGame)
 	if (winner === "d") return closeIssue("It's a tie!", process.env.ISSUE_NUMBER ?? "")
 	if (winner === game.ownerColor) return closeIssue("You won!", process.env.ISSUE_NUMBER ?? "")
@@ -160,7 +161,6 @@ const handleWinner = (board: Board, state: GameStatus, winner: "r" | "y" | "d") 
 }
 
 
-// updateLastMoves(game.turn, column, user.login, body)
 const updateLastMoves = (color: "r" | "y", column: number, player: string, body: string) => {
 	const lastMoves = fs.readFileSync(LATST_MOVES_PATH, "utf-8")
 	const lastMovesParsed = JSON.parse(lastMoves) as Move[]

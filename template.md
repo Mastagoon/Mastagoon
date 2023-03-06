@@ -24,6 +24,7 @@ To play, click on any of the numbers at the bottom of the board.
 
 <br>
 
+Last 5 plays:
 <!-- latest moves here -->
 
 ![](https://activity-graph.herokuapp.com/graph?username=mastagoon&theme=redical)
