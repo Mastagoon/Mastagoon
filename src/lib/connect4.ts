@@ -120,7 +120,7 @@ function getWinningDirections(board: Board): number[][][][] {
 	})
 
 	// get valid coords only
-	return winningDirectionsCoords.filter(validateWinningDirections)
+	return winningDirectionsCoords.map(validateWinningDirections)
 }
 
 export function getGameState(board: Board): GameStatus {
@@ -165,8 +165,6 @@ export function isBoardFull(board: Board) {
 export function addToBoard(board: Board, colIdx: number, color: "y" | "r"): Board | null {
 	const rowIdx = board[colIdx]?.lastIndexOf("e")
 	if (rowIdx === -1 || rowIdx === undefined) return null
-	console.log(board[colIdx][rowIdx])
 	board[colIdx][rowIdx] = color
-	console.log(board)
 	return board
 }
