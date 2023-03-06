@@ -15,7 +15,7 @@ type Move = {
 dotenv.config()
 
 const TEMPLATE_PATH = "./template.md"
-const LATST_MOVES_PATH = "./data/lastMoves.json"
+const LATST_MOVES_PATH = "./data/last_moves.json"
 
 const REPO_PATH = `https://github.com/${process.env.REPOSITORY_OWNER}/${REPO_NAME}`
 
