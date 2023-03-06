@@ -57,8 +57,8 @@ function winningCoordsForCell(x: number, y: number): number[][][] {
 
 function isCellInBoard(coords: number[]) {
 	if (coords.length !== 2) return false
-	if (coords[0] < 0 || coords[0] >= NUM_COLS) return false
-	if (coords[1] < 0 || coords[1] >= NUM_ROWS) return false
+	if (coords[0] < 0 || coords[0] >= NUM_ROWS) return false
+	if (coords[1] < 0 || coords[1] >= NUM_COLS) return false
 	return true
 }
 
@@ -67,8 +67,7 @@ function validateCoords(coords: number[][]) {
 }
 
 function validateWinningDirections(winningDirections: number[][][]) {
-	if (winningDirections.length !== 4) return false
-	return winningDirections.every(validateCoords)
+	return winningDirections.filter(validateCoords)
 }
 
 
@@ -134,12 +133,12 @@ export function getGameState(board: Board): GameStatus {
 		const directionSet = allPossibleWinningCoords[i]
 		for (let j = 0; j < directionSet.length; j++) {
 			const coord = directionSet[j]
-			const squareResult = isCoordListWinning(board, coord)
+			const result = isCoordListWinning(board, coord)
 
-			if (squareResult === "r")
+			if (result === "r")
 				return { status: "WINNER_RED", winningCoords: coord }
 
-			if (squareResult === "y")
+			if (result === "y")
 				return { status: "WINNER_YELLOW", winningCoords: coord }
 		}
 	}
@@ -164,12 +163,6 @@ export function isBoardFull(board: Board) {
 }
 
 export function addToBoard(board: Board, colIdx: number, color: "y" | "r"): Board | null {
-	// copy the board
-	console.log(colIdx)
-	console.log("BOARD:")
-	console.log(board)
-	console.log(board[colIdx])
-	console.log(board[colIdx]?.lastIndexOf("e"))
 	const rowIdx = board[colIdx]?.lastIndexOf("e")
 	if (rowIdx === -1 || rowIdx === undefined) return null
 	console.log(board[colIdx][rowIdx])
