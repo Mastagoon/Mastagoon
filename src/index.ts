@@ -65,7 +65,7 @@ const updateReadme = (game: Game) => {
 	const lastMovesParsed = JSON.parse(lastMoves) as Move[]
 	let lastMovesTable = `| Color | Player | Column | Message |\n| --- | --- | --- | --- |\n`
 	lastMovesTable += lastMovesParsed.reverse().map((move) =>
-		`| <img src="imgs/${move.color}.png" width="15" height="15" /> | ${move.player} | ${move.column} | ${move.message} |`
+		`| <img src="imgs/${move.color}.png" width="15" height="15" /> | [${move.player}](https://github.com/${move.player}) | ${move.column} | ${move.message} |`
 	).join("\n")
 	const lastMovesBeginDelimiter = "<!-- last moves go here -->"
 	const [beforeLastMoves, afterLastMoves] = readme.split(lastMovesBeginDelimiter)
