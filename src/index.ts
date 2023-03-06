@@ -63,12 +63,13 @@ const updateReadme = (game: Game) => {
 	readme = [beforeBoard, boardBeginDelimiter, generateReadmeBoard(game.board), afterBoard].join("\n")
 	const lastMoves = fs.readFileSync(LATST_MOVES_PATH, "utf-8")
 	const lastMovesParsed = JSON.parse(lastMoves) as Move[]
-	const lastMovesTable = lastMovesParsed.map((move) =>
+	let lastMovesTable = `| Color | Player | Column | Message |\n| --- | --- | --- | --- |\n`
+	lastMovesTable += lastMovesParsed.map((move) =>
 		`| <img src="imgs/${move.color}.png" width="15" height="15" /> | ${move.player} | ${move.column} | ${move.message} |`
-	)
+	).join("\n")
 	const lastMovesBeginDelimiter = "<!-- last moves go here -->"
 	const [beforeLastMoves, afterLastMoves] = readme.split(lastMovesBeginDelimiter)
-	readme = [beforeLastMoves, lastMovesBeginDelimiter, lastMovesTable.join("\n"), afterLastMoves].join("\n")
+	readme = [beforeLastMoves, lastMovesBeginDelimiter, lastMovesTable, afterLastMoves].join("\n")
 	fs.writeFileSync("README.md", readme)
 }
 
@@ -171,7 +172,7 @@ const updateLastMoves = (color: "r" | "y", column: number, player: string, body:
 		color,
 		player,
 		column,
-		message: body.length > 100 ? body.substring(0, 100) + "..." : body
+		message: body.length > 30 ? body.substring(0, 100) + "..." : body
 	}
 	lastMovesParsed.push(newMove)
 	if (lastMovesParsed.length > 5) lastMovesParsed.shift()

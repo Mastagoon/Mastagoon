@@ -12,9 +12,9 @@
 <div align="center">
 
 # Care for a game?
-This is an open connect4 game ANYONE can play. This project is inspired by [this template](https://github.com/marcizhu/readme-chess).
-It uses github actions to trigger the script when a new issue opens, which in turn updates the board and closes the issue.
-for more details, check [this repository](https://github.com/mastagoon/connect4-readme).
+This is an open connect4 game ANYONE can play. This project is inspired by [this template](https://github.com/marcizhu/readme-chess). <br>
+It uses github actions to trigger the script when a new issue opens, which in turn updates the board and closes the issue. <br>
+for more details, check [this repository](https://github.com/mastagoon/connect4-readme). <br>
 
 <!-- turn message here -->
 
