@@ -26,7 +26,7 @@ const getGame = (): Game => {
 
 const createIssueCommentLink = (column: number) => {
 	const owner = process.env.REPOSITORY_OWNER
-	return `https://github.com/${owner}/${REPO_NAME}/issues/new?title=Connect4:+move:+${column}`
+	return `https://github.com/${owner}/${REPO_NAME}/issues/new?body=move+${column}&title=Connect4:+move:+${column}`
 }
 
 const generateReadmeBoard = (board: Board) => {
@@ -172,7 +172,7 @@ const updateLastMoves = (color: "r" | "y", column: number, player: string, body:
 		color,
 		player,
 		column,
-		message: body.length > 30 ? body.substring(0, 100) + "..." : body
+		message: body?.length > 30 ? body.substring(0, 100) + "..." : body
 	}
 	lastMovesParsed.push(newMove)
 	if (lastMovesParsed.length > 5) lastMovesParsed.shift()
