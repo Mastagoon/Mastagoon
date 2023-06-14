@@ -17,7 +17,7 @@ It uses github actions to trigger the script when a new issue opens, which in tu
 for more details, check [this repository](https://github.com/mastagoon/connect4-readme). <br>
 
 
-It's your turn! You are playing as <img src="imgs/r.png" width="15" height="15" />
+It's Mastagoon's turn! He is playing as <img src="imgs/y.png" width="15" height="15" />
 
 
 To play, click on any of the numbers at the bottom of the board.
@@ -30,7 +30,7 @@ To play, click on any of the numbers at the bottom of the board.
 | <img src="imgs/e.png" width="50" height="50" /> | <img src="imgs/e.png" width="50" height="50" /> | <img src="imgs/e.png" width="50" height="50" /> | <img src="imgs/e.png" width="50" height="50" /> | <img src="imgs/e.png" width="50" height="50" /> | <img src="imgs/e.png" width="50" height="50" /> | <img src="imgs/e.png" width="50" height="50" /> |
 | <img src="imgs/e.png" width="50" height="50" /> | <img src="imgs/e.png" width="50" height="50" /> | <img src="imgs/e.png" width="50" height="50" /> | <img src="imgs/e.png" width="50" height="50" /> | <img src="imgs/e.png" width="50" height="50" /> | <img src="imgs/e.png" width="50" height="50" /> | <img src="imgs/e.png" width="50" height="50" /> |
 | <img src="imgs/e.png" width="50" height="50" /> | <img src="imgs/e.png" width="50" height="50" /> | <img src="imgs/y.png" width="50" height="50" /> | <img src="imgs/e.png" width="50" height="50" /> | <img src="imgs/r.png" width="50" height="50" /> | <img src="imgs/e.png" width="50" height="50" /> | <img src="imgs/e.png" width="50" height="50" /> |
-| <img src="imgs/e.png" width="50" height="50" /> | <img src="imgs/e.png" width="50" height="50" /> | <img src="imgs/y.png" width="50" height="50" /> | <img src="imgs/e.png" width="50" height="50" /> | <img src="imgs/y.png" width="50" height="50" /> | <img src="imgs/e.png" width="50" height="50" /> | <img src="imgs/r.png" width="50" height="50" /> |
+| <img src="imgs/e.png" width="50" height="50" /> | <img src="imgs/e.png" width="50" height="50" /> | <img src="imgs/y.png" width="50" height="50" /> | <img src="imgs/e.png" width="50" height="50" /> | <img src="imgs/y.png" width="50" height="50" /> | <img src="imgs/r.png" width="50" height="50" /> | <img src="imgs/r.png" width="50" height="50" /> |
  | [1](https://github.com/Mastagoon/mastagoon/issues/new?body=move+1&title=Connect4:+move:+1) | [2](https://github.com/Mastagoon/mastagoon/issues/new?body=move+2&title=Connect4:+move:+2) | [3](https://github.com/Mastagoon/mastagoon/issues/new?body=move+3&title=Connect4:+move:+3) | [4](https://github.com/Mastagoon/mastagoon/issues/new?body=move+4&title=Connect4:+move:+4) | [5](https://github.com/Mastagoon/mastagoon/issues/new?body=move+5&title=Connect4:+move:+5) | [6](https://github.com/Mastagoon/mastagoon/issues/new?body=move+6&title=Connect4:+move:+6) | [7](https://github.com/Mastagoon/mastagoon/issues/new?body=move+7&title=Connect4:+move:+7) |
 
 
@@ -40,11 +40,11 @@ Last 5 plays:
 
 | Color | Player | Column | Message |
 | --- | --- | --- | --- |
+| <img src="imgs/r.png" width="15" height="15" /> | [mohammed5420](https://github.com/mohammed5420) | 6 | move 6 |
 | <img src="imgs/y.png" width="15" height="15" /> | [Mastagoon](https://github.com/Mastagoon) | 3 | move 3 |
 | <img src="imgs/r.png" width="15" height="15" /> | [laglag1994](https://github.com/laglag1994) | 5 | move 5 |
 | <img src="imgs/y.png" width="15" height="15" /> | [Mastagoon](https://github.com/Mastagoon) | 5 | move 5 |
 | <img src="imgs/r.png" width="15" height="15" /> | [mohammed5420](https://github.com/mohammed5420) | 7 | move 7 |
-| <img src="imgs/y.png" width="15" height="15" /> | [Mastagoon](https://github.com/Mastagoon) | 3 | move 3 |
 
 
 ![](https://activity-graph.herokuapp.com/graph?username=mastagoon&theme=redical)
