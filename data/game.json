@@ -1,1 +1,1 @@
-{"board":[["e","e","e","e","e","e"],["e","e","e","e","e","e"],["e","r","y","y","y","r"],["e","e","r","r","r","y"],["e","e","y","r","y","y"],["e","e","y","r","y","y"],["e","e","y","r","r","r"]],"ownerColor":"y","turn":"r","state":{"status":"IN_PROGRESS"}}
+{"board":[["e","e","e","e","e","e"],["e","e","e","e","e","e"],["e","r","y","y","y","r"],["e","r","r","r","r","y"],["e","e","y","r","y","y"],["e","e","y","r","y","y"],["e","e","y","r","r","r"]],"ownerColor":"y","turn":"r","state":{"status":"WINNER_RED","winningCoords":[[3,1],[3,2],[3,3],[3,4]]}}
