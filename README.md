@@ -42,7 +42,6 @@ Last 5 plays:
 | --- | --- | --- | --- |
 | <img src="imgs/y.png" width="15" height="15" /> | [Mastagoon](https://github.com/Mastagoon) | 3 | move 3 |
 | <img src="imgs/r.png" width="15" height="15" /> | [Arch881010](https://github.com/Arch881010) | 5 | move 5
-hello |
 | <img src="imgs/y.png" width="15" height="15" /> | [Mastagoon](https://github.com/Mastagoon) | 4 | move 4 |
 
 
